@@ -1,11 +1,24 @@
 #testing 
 
-name = ("Please enter name")
-print(name)
 
 #testing commit/push
 
-
+#opemimg amd readimg the file
+f = open('user.txt', 'r')
+#for loop to loop through text file
+for line in f:
+  fields = line.split(",") #spilt using ,
+  name = feilds[0]
+  age = feilds[1]
+  status = feilds[2]
+  hobby = feilds[3]
+  study = feilds[4]
+  
+  #for test purposes 
+  print("print info \n")
+  print(name \n)
+  print(age)
+  
 # --- Matching Algorithm --- #
 # for the specified mentee
 #   loop through mentors
