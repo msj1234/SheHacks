@@ -1,7 +1,9 @@
-#testing 
 
+from person import Person
 
-#testing commit/push
+# declaring mentor and mentee lists
+mentors = []
+mentees = []
 
 #opemimg amd readimg the file
 file = open('user.txt', 'r')
@@ -18,11 +20,21 @@ for line in file:
   status = fields[2]
   hobby = fields[3]
   study = fields[4]
+
+  newPerson = Person(name,age,status,hobby,study)
+
+  if(status == "mentor"):
+      mentors.append(newPerson)
+  else:
+      mentees.append(newPerson)
   
   #for test purposes 
   print("print info \n")
   print(name, "\n")
-  print(age)
+  print(age, "\n")
+  print(newPerson.status,'\n')
+  print(mentors,'\n')
+  print(mentees,'\n')
   
   
 # --- Matching Algorithm --- #
