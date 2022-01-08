@@ -30,13 +30,13 @@ for line in file:
   else:
       mentees.append(newPerson)
   
-  #for test purposes 
-  print("print info \n")
-  print(name, "\n")
-  print(age, "\n")
-  print(newPerson.status,'\n')
-  print(mentors,'\n')
-  print(mentees,'\n')
+  ##for test purposes 
+  #print("print info \n")
+  #print(name, "\n")
+  #print(age, "\n")
+  #print(newPerson.status,'\n')
+  #print(mentors,'\n')
+  #print(mentees,'\n')
   
   
 # --- Matching Algorithm --- #
@@ -46,8 +46,14 @@ def findMatches(mentee):
 
     for mentor in mentors:
         # if field of interest/experience match
-        if(mentee.field == mentor.field && ):
+        if(mentee.field == mentor.field):
             # add mentor to list of matches so that mentee can choose
             matches.append(mentor)
 
     return matches
+
+
+# Testing:
+myMatches = findMatches(mentees[0])
+for match in myMatches:
+    print(match.toString())

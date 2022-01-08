@@ -1,6 +1,7 @@
-# SheHacks user info rough 
-#sorted by: name, age, status (mentor or mentee), hobby, feild of study/interest)
-John,26,mentor,fishing,chemical engineering
-Jane,19,mentee,swimming,software engineering
-Riya,17,mentee,shopping,chemical engineering 
-Bob,28,mentor,swimming,software engineering
+# SheHacks user info
+#sorted by: name, age, status (mentor or mentee), hobby, field of study/interest)
+Carol McDonnell,26,mentor,fishing,chemical engineering
+Hannah Hill,19,mentee,swimming,software engineering
+Riya Price,17,mentee,shopping,chemical engineering 
+Jane Smith,34,mentor,swimming,software engineering
+Isabela Doe,28,mentor,singing,software engineering
