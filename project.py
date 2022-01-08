@@ -21,8 +21,10 @@ for line in file:
   hobby = fields[3]
   study = fields[4]
 
+  # create instance of Person
   newPerson = Person(name,age,status,hobby,study)
 
+  # add new person to corresponding lists
   if(status == "mentor"):
       mentors.append(newPerson)
   else:
@@ -41,17 +43,11 @@ for line in file:
 # for the specified mentee
 def findMatches(mentee):
     matches = []
+
     for mentor in mentors:
-        # if interests match, age is in range (mentor 5-10 yrs older??), locations near (etc?)
-        if(mentee.field == mentor.field && ): # add to this!!
+        # if field of interest/experience match
+        if(mentee.field == mentor.field && ):
+            # add mentor to list of matches so that mentee can choose
             matches.append(mentor)
 
-#           add mentor to list of matches (mentee gets to choose who they want to talk to)
-
-#if mentor, loop through to find mentee with similar hobbies 
-#if(status == 'mentor'):
-#    #loop through array etc..
-#    continue
-#else: # if mentee then conect with mentor with same interests 
-#    continue 
-#file.close()
+    return matches
