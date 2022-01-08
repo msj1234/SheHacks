@@ -1,0 +1,6 @@
+# SheHacks user info rough 
+#sorted by: name, status (mentor or mentee), hobby, feild of study/interest)
+John, mentor, fishing, chemical engineering
+Jane, mentee, swimming, software engineering
+Riya, mentee, shopping, chemical engineering 
+Bob, mentor, swimming, software engineering
