@@ -6,6 +6,5 @@ class Person():
         self.hobby = hobby
         self.field = field
 
-
-
-
+    def toString():
+        return self.name + ", Age: " + self.age + ", Hobbies: " + self.hobby + ", Field of Experience/Interest: " + self.field
