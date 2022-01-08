@@ -5,6 +5,11 @@
 
 #opemimg amd readimg the file
 file = open('user.txt', 'r')
+
+#skip the header lines in the file
+next(file)
+next(file)
+
 #for loop to loop through text file
 for line in file:
   fields = line.split(",") #spilt using ,
@@ -16,7 +21,7 @@ for line in file:
   
   #for test purposes 
   print("print info \n")
-  print(name \n)
+  print(name, "\n")
   print(age)
   
   
@@ -27,9 +32,9 @@ for line in file:
 #           add mentor to list of matches (mentee gets to choose who they want to talk to)
 
 #if mentor, loop through to find mentee with similar hobbies 
-if(status = 'mentor'):
-  #loop through array etc..
-  continue
-else: # if mentee then conect with mentor with same interests 
-  continue 
-file.close()
+#if(status == 'mentor'):
+#    #loop through array etc..
+#    continue
+#else: # if mentee then conect with mentor with same interests 
+#    continue 
+#file.close()

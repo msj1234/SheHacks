@@ -1,6 +1,6 @@
 # SheHacks user info rough 
 #sorted by: name, age, status (mentor or mentee), hobby, feild of study/interest)
-John, 26, mentor, fishing, chemical engineering
-Jane, 19, mentee, swimming, software engineering
-Riya, 17, mentee, shopping, chemical engineering 
-Bob, 28, mentor, swimming, software engineering
+John,26,mentor,fishing,chemical engineering
+Jane,19,mentee,swimming,software engineering
+Riya,17,mentee,shopping,chemical engineering 
+Bob,28,mentor,swimming,software engineering
