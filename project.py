@@ -39,8 +39,13 @@ for line in file:
   
 # --- Matching Algorithm --- #
 # for the specified mentee
-#   loop through mentors
-#       if interests match, age is in range (mentor 5-10 yrs older??), locations near (etc?)
+def findMatches(mentee):
+    matches = []
+    for mentor in mentors:
+        # if interests match, age is in range (mentor 5-10 yrs older??), locations near (etc?)
+        if(mentee.field == mentor.field && ): # add to this!!
+            matches.append(mentor)
+
 #           add mentor to list of matches (mentee gets to choose who they want to talk to)
 
 #if mentor, loop through to find mentee with similar hobbies 
