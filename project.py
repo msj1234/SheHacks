@@ -58,7 +58,7 @@ def questionPrompts(study):
 #generic questions to prompt
  q1 = "What do you enjoy most about"
  q2 = "What are the most challenging aspects about working in"
- q3 = "i'm interested in the field of"
+ q3 = "I'm interested in the field of"
 
 #printing out the prompts with selected feild
 
