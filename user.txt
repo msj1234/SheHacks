@@ -1,5 +1,5 @@
 # SheHacks user info
-#sorted by: name, age, status (mentor or mentee), hobby, field of study/interest)
+#sorted by: name, age, status (mentor or mentee), hobby, field of study/interest
 Carol McDonnell,26,mentor,fishing,chemical engineering
 Hannah Hill,19,mentee,swimming,software engineering
 Riya Price,17,mentee,shopping,chemical engineering 
