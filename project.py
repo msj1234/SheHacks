@@ -52,8 +52,25 @@ def findMatches(mentee):
 
     return matches
 
+#set of prompts for user to send in conversation
+def questionPrompts(study):
+
+#generic questions to prompt
+ q1 = "What do you enjoy most about"
+ q2 = "What are the most challenging aspects about working in"
+ q3 = "i'm interested in the field of"
+
+#printing out the prompts with selected feild
+
+ print("\n --- Some questions you may want to ask ask: --- \n ")
+ print(q1, study)
+ print(q2, study)
+ print(q3, study)
 
 # Testing:
 myMatches = findMatches(mentees[0])
 for match in myMatches:
-    print(match.toString())
+    print(match.toString()) 
+#send user question suggestions
+questionPrompts(study)
+
