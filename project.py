@@ -5,7 +5,7 @@ from person import Person
 mentors = []
 mentees = []
 
-#opemimg amd readimg the file
+#opemimg amd readimg the file (file is a data set of signed up users)
 file = open('user.txt', 'r')
 
 #skip the header lines in the file
